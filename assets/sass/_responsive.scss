@@ -1,0 +1,292 @@
+//default
+
+@media(min-width: 1920px){
+  .p75 {
+    padding: 95px 0;
+  }
+  .portfolio .portfolio-nav__item-wrap__single .content p {
+    height: 50px !important;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .portfolio .portfolio-nav__item-wrap__single .content p{
+    height: 63px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .portfolio .portfolio-nav__item-wrap__single .content p{
+    padding-right: 65px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 991px) {
+  .navbar-toggler{
+    display: none;
+  }
+
+
+
+
+}
+
+@media(max-width: 991px){
+
+  .first_section{
+    background-position: center !important;
+  }
+
+  .about_class .about_me_content {
+    padding-right: 20px;
+  }
+
+  .review .review_init .person-content p {
+
+    width: 85%;
+
+  }
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+  .mbp45 {
+    padding: 45px 0 !important;
+  }
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .p75, .p90, .p95, .p60 {
+    padding: 45px 0 !important;
+  }
+
+  .section-title{
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 15px;
+  }
+
+
+  .navigation_menu{
+    height: 75px;
+
+   .navbar-brand {
+
+      margin-top: 7px;
+      margin-left: 10px;
+    }
+    .navbar-collapse{
+
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: 0;
+      width: 100%;
+      float: unset !important;
+      border: none;
+      z-index: 2;
+      background: #282828;
+      padding: 15px 0;
+      ul li{
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
+   .navbar {
+      margin: 10px 0 10px;
+      padding: 0;
+     background-color: #282828;
+    }
+    .navbar-toggle{
+      padding: 9px 0;
+    }
+    .navbar-toggle .icon-bar {
+      display: block;
+      width: 30px;
+      height: 2px;
+      border-radius: 1px;
+    }
+    .navbar-toggle .icon-bar+.icon-bar {
+      margin-top: 7px;
+    }
+  }
+
+
+
+  //first section
+
+  .first_section{
+    height: 75vh;
+    position: relative;
+    background-position: right !important;
+    .container .row h1{
+      font-size: 2.5em;
+    }
+
+    .custom_btn{
+      padding: 14px 50px;
+    }
+
+  }
+
+
+
+  //about
+  .about_class {
+    .about_me_content {
+      padding-right: 15px;
+      .section-title{
+        font-size: 25px;
+        line-height: 1.4;
+        font-weight: 700;
+        font-family: "Montserrat";
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+
+  //portfolio
+
+  .portfolio{
+    .portfolio-nav{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .portfolio-nav.desktop{
+      display: none;
+    }
+    .portfolio-nav.mobile{
+      display: block;
+
+      .nice-select{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background: transparent;
+      }
+    }
+
+    .portfolio-nav__item-wrap{
+      margin-top: 25px;
+    }
+
+    .portfolio-nav__item-wrap__single{
+      margin-bottom: 15px;
+      .content {
+        h3 {
+          font-size: 20px;
+        }
+        p{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+  //review
+  .review {
+    .review_init {
+      margin-top: 35px;
+    }
+    .text-center p{
+      width: 100% !important;
+    }
+     .slick-dots {
+      bottom: -46px;
+    }
+  }
+
+
+
+
+
+//partners
+
+  .partners{
+    .partners_init img{
+      height: auto;
+    }
+  }
+
+
+
+  //contact
+
+  .contact {
+    .text-center {
+      margin-bottom: 30px;
+    }
+    .contact-content h3 {
+      font-size: 20px;
+
+      margin-top: 0;
+    }
+    .contact-content ul {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .contact-form {
+      button{
+        margin-top: 15px;
+      }
+    }
+  }
+
+
+
+
+
+  //footer
+  footer {
+    .social,.copy {
+      text-align: center;
+    }
+    .social{
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+
+
+//--------------end of default
+

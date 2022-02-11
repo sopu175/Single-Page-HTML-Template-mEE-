@@ -1,0 +1,39 @@
+//default
+@media (min-width: 1400px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .mbp45 {
+    padding: 45px 0 !important;
+  }
+}
+
+@media(max-width: 767px) {
+  .p75, .p90, .p95, .p60 {
+    padding: 45px 0 !important;
+  }
+  .Title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .innerBanner.asShortBanner {
+    height: 70px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 11px;
+  }
+  .dcBtn {
+    padding: 12px 45px !important
+  }
+
+}
+
+
+//--------------end of default
+

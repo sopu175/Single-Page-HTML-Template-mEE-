@@ -1,6 +1,6 @@
 ### This is a Single Page HTML template
-#Version 1.0
-##Language used
+# Version 1.0
+## Language used
 <ul>
 <li>HTML</li>
 <li>CSS/Bootstrap/SaSS</li>
@@ -9,7 +9,7 @@
 
 
 
-##Library used
+## Library used
 <ul>
 <li>Font Awesome</li>
 <li>Slick Slider</li>
@@ -21,4 +21,4 @@
 <li>Easing</li>
 </ul>
 
-####Check the <a href="https://sopu.me/template/html/mee/" target="_blank">Demo Link</a>
+#### Check the <a href="https://sopu.me/template/html/mee/" target="_blank">Demo Link</a>
